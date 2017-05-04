@@ -28,7 +28,7 @@
   display: table;
 }
 
-.row::after {
+.row:after {
   clear: both;
 }
 
