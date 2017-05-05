@@ -1,3 +1,30 @@
+#links{
+  background-color: black;
+  color:white;
+  padding: 10px 10px 0px 10px;;
+  position: fixed;
+  top:0;
+  left:0;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight: 700;
+ font-size: 1.6em;
+}
+
+.menu{
+ display:inline-block;
+ float:left;
+ margin-top:10px;
+ padding:10px;
+ list-style: none;
+ height: 100%;
+ text-align: center;
+ font-size: 0.5em;
+ vertical-align: middle;
+}
+
+.menu:hover{
+ background-color: #18BC9C ;
+}
 
 #articleBienvenida {
     background-color: #18BC9C;
@@ -24,13 +51,14 @@ hr.star-light:after {
     background-color: #18BC9C;
     color: white;
 }
+
 hr {
     padding: 0;
     border: none;
     border-top: solid 5px;
     text-align: center;
     max-width: 250px;
-    margin: 25px auto 30px;
+    margin: 15px auto 0px;
     color: white;
 }
 
@@ -72,12 +100,26 @@ hr:after {
 }
 
 
-hr:after {
-    content: "\f005";
-    font-family: FontAwesome;
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    font-size: 2em;
-    padding: 0 .25em;
+
+
+
+footer {
+   text-align: center;
+   color: #FFF;
+ }
+ .contacto {
+   padding: 70px;
+   background-color: #2C3E50;
+ }
+.copy {
+  background-color: #233140;
+}
+.txtContacto {
+  margin-bottom: 30px;
+}
+.linkFooter {
+  color: #18BC9C;
+}
+.iconosFooter {
+  font-size: 48px;
 }
