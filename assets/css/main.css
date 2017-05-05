@@ -100,6 +100,43 @@ hr:after {
 }
 
 
+#about {
+  background: #18BC9C;
+  color: #fff;
+}
+
+.texto {
+  font-family: Montserrat;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.textos-p {
+  font-family: lato;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.btn-download {
+  font-size: 20px;
+  font-family: lato;
+  border-radius: 6px;
+  background: #18bc9c;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+    margin: 0 auto;
+}
+.btn-download:hover {
+  background: #fff;
+  color: #18bc9c;
+  transition: .3s;
+ text-align: center;
+}
+
 
 
 
