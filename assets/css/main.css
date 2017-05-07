@@ -138,7 +138,23 @@ hr:after {
 }
 
 
+/*portfolio*/
 
+#portafolio {
+	font-size: 45px;
+}
+
+#portfolio {
+ font-family: "Montserrat";
+    text-align: center
+}
+
+.imgPortfolio {
+	width: 100%;
+}
+
+
+/*footer*/
 
 footer {
    text-align: center;
